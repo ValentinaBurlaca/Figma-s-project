@@ -347,8 +347,10 @@ li {
 }
 
 #what-we-have article div button {
-    position: relative;
-    margin-left: 120px;
+    position: absolute;
+    margin-top: 336px;
+    margin-left: 0;
+    box-sizing: border-box;
     border: 1px solid #3E3F43;
     width: 140px;
     height: 45px;
@@ -359,12 +361,23 @@ li {
 
 .bg-color-pink, .bg-color-pink button {
     background-color: rgba(249, 189, 189, 1);
+    left: 250px;
 }
 
 .bg-color-yellow, .bg-color-yellow button {
     background-color: rgba(247, 222, 166, 1);
+    left: 700px;
 }
 
 .bg-color-lightblue, .bg-color-lightblue button {
     background-color: rgba(168, 220, 236, 1);
+    left: 1150px;
 }
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+
