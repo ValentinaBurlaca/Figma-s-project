@@ -1,6 +1,5 @@
 
 body {
-
     max-width: 1152px;
     position: relative;
     background: #FFFFFF;
@@ -12,7 +11,6 @@ body {
 
 header {
     position: absolute;
-
     height: 80px;
     left: 0px;
     top: 0px;
@@ -23,7 +21,7 @@ header div img {
     width: 30px;
     height: 30px;
     left: 80px;
-    top: 43px;
+    top: 23px;
 }
 
 header div p {
@@ -31,7 +29,6 @@ header div p {
     width: 154px;
     height: 33px;
     left: 118px;
-    top: 20px;
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
@@ -48,7 +45,7 @@ header nav ul {
     width: 737px;
     height: 40px;
     left: 387px;
-    top: 20px;
+    
 }
 
 nav ul li a{
@@ -74,7 +71,7 @@ header nav .active {
 }
 
 nav ul button {
-   position: absolute;
+    position: absolute;
     width: 137px;
     height: 40px;
     left: 600px;
@@ -96,25 +93,14 @@ nav ul button {
     grid-template-columns: repeat(2,1fr);
 }
 
-@media (max-width: 1152px){
-    body{
-        max-width: 970px;
-    }
-}
-@media (max-width: 767px){
-    body{
-        max-width: none;
-    }
-}
-
 .left-container p {
     position: absolute;
     width: 504px;
     height: 98px;
     left: 102px;
-    top: 217px;
+    top: 150px;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 49px;
     color: #3E3F43;
 }
@@ -124,10 +110,10 @@ nav ul button {
     width: 504px;
     height: 196px;
     left: 102px;
-    top: 331px;
+    top: 230px;
     font-weight: bold;
-    font-size: 72px;
-    line-height: 98px;
+    font-size: 70px;
+    line-height: 80px;
     color: #313235;
 }
 
@@ -137,11 +123,11 @@ nav ul button {
     width: 175px;
     height: 50px;
     left: 102px;
-    top: 598px;
+    top: 470px;
     background: #DAA520;
     border-radius: 4px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     color: #FFFFFF;
     border: 0;
@@ -150,8 +136,8 @@ nav ul button {
 .right-container .bg-home {
     position: absolute;
     width: 370px;
-    height: 700px;
-    left: 782px;
+    height: 610px;
+    left: 789px;
     top: 0px;
     background: #F9BDBD;
     z-index: -1;
@@ -159,18 +145,30 @@ nav ul button {
 }
 
 .right-container img {
-    position: fixed;
-    width: 468px;
-    height: 477px;
-    left: 55%;
-    top: 165px;
+    position: absolute;
+    width: 430px;
+    height: 450px;
+    left: 51%;
+    top: 130px;
     background: url(assets/img/table.png);
 }
 
 .right-container .flower {
     position: absolute;
-width: 382px;
-height: 382px;
-left: 522px;
-top: 400px;
+    width: 282px;
+    height: 282px;
+    left: 47%;
+    top: 300px;
+    z-index: -1;
+}
+
+@media (max-width: 1152px){
+    body{
+        max-width: 970px;
+    }
+}
+@media (max-width: 767px){
+    body{
+        max-width: none;
+    }
 }
