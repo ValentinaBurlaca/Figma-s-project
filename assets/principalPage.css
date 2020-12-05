@@ -164,9 +164,324 @@ nav ul button {
     z-index: -1;
 }
 
-/*#about-us {
+/*About us*/
+
+#about-us {
     position: absolute;
-}*/
+    margin-top: -500px;
+}
+
+hr {
+position: absolute;
+width: 360px;
+height: 0px;
+margin-left: 340px;
+margin-top: 35px;
+color: black;
+}
+
+#about-us header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.logo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+h4{
+    position: absolute;
+    font-weight: bold;
+    font-size: 36px;
+    color: #3E3F43;
+    width: 205px;
+    height: 49px;
+    margin-top: 9px;
+    margin-left: 140px;
+}
+
+#about-us header h2 {
+    color: rgba(34, 34, 34, 0.1);
+    position: absolute;
+    width: 379px;
+    height: 98px;
+    margin-left: 690px;
+    margin-top: -15px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: right;
+}
+
+#top-article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#top-article h2 {
+    position: absolute;
+    margin-left: 0;
+    margin-top: 230px;
+    color: #3E3F43;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+#top-article p {
+    position: absolute;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 340px;   
+}
+
+.rectangle {
+    position: relative;
+    width: 278px;
+    height: 388px;
+    margin-left: -35px;
+    margin-top: -570px;
+    z-index: -1;
+}
+
+.figure img {
+    z-index: -1;
+    margin-top: 200px;
+    margin-left: 138px;
+    
+}
+
+.bg-flower {
+    position: absolute;
+    margin-top: 380px;
+    z-index: -2;
+    margin-left: -10px;
+}
+
+#bottom-article {
+    margin-top: 350px;
+    margin-left: 125px;
+    display: grid;
+    grid-template-columns: 735px auto;
+}
+
+#bottom-article div h2 {
+    position: relative;
+    margin-left: 10px;
+    font-size: 30px;
+    line-height: 49px;
+}
+
+#bottom-article div p {
+    font-size: 20px;
+    line-height: 33px;
+    margin-left: 10px;
+}
+
+#bottom-article img {
+    width: 287px;
+    height: 400px;
+    margin-top: -100px;
+}
+
+/*How it works*/
+
+#how-to-custom {
+    position: absolute;
+    margin-top: 650px;
+}
+
+#how-to-custom header {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.logo {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -8px;
+}
+
+#how-to-custom header  h2 {
+    position: relative;
+    left: 200px;
+    font-size: 59px;
+    top: -40px;
+    color: rgba(34, 34, 34, 0.1);
+    font-weight: 800;
+    line-height: 49px;
+    width: 100%;
+}
+
+#how-to-custom hr {
+    width: 100px;
+    position: absolute;
+    height: 0px;
+    margin-left: 360px;
+    margin-top: 35px;
+    color: black;
+}
+
+#how-to-custom header h4 {
+    position: absolute;
+    margin-left: 140px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(62, 63, 67, 1);
+}
+
+#how-to-custom article ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 60px;
+    margin-top: 150px;
+}
+
+li {
+    list-style: none  ;
+}
+
+#how-to-custom button {
+    background-color: rgba(218, 165, 32, 1);
+    position: absolute;
+    width: 220px;
+    height: 47px;
+    border-radius: 4px;
+    color: white;
+    border: 0;
+    margin-left: 450px;
+    margin-top: 70px;
+}
+
+/*What we have*/
+
+#what-we-have {
+    position: relative;
+    margin-top: 1300px;
+}
+
+#what-we-have header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+}
+
+#what-we-have article div {
+    border-radius: 0 100px;
+    width: 280px;
+    height: 400px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+}
+
+#what-we-have h4 {
+    position: absolute;
+    margin-left: 150px;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 30px;
+    color: rgba(62, 63, 67, 1);
+}
+
+#what-we-have header h2 {
+    color: rgba(34, 34, 34, 0.1);
+    position: absolute;
+    font-weight: 800px;
+    font-size: 72px;
+    text-transform: uppercase;
+    margin-left: 650px;
+    margin-top: -20px;
+}
+
+#what-we-have hr {
+    width: 300px;
+    position: absolute;
+    height: 0px;
+    margin-left: 350px;
+    margin-top: 35px;
+    color: black;
+}
+
+#what-we-have article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 100px;
+}
+
+#what-we-have article div img {
+    margin-top: 5%;
+}
+
+#what-we-have article div p {
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#what-we-have article div button {
+    position: absolute;
+    margin-top: 250px;
+    box-sizing: border-box;
+    border: 1px solid #3E3F43;
+    width: 140px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+
+.bg-color-pink, .bg-color-pink button {
+    background-color: rgba(249, 189, 189, 1);
+    left: 180px;
+}
+
+.bg-color-yellow, .bg-color-yellow button {
+    background-color: rgba(247, 222, 166, 1);
+    left: 560px;
+}
+
+.bg-color-lightblue, .bg-color-lightblue button {
+    background-color: rgba(168, 220, 236, 1);
+    right: 55px;
+}
+
+/*Testimony*/
+#Testimony {
+    position: absolute;
+    margin-top: 150px;
+}
+
+#Testimony header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#Testimony header div h4 {
+    font-size: 30px;
+}
+
+#Testimony h2 {
+    font-size: 60px;
+    margin-left: 700px;
+    margin-top: -10px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    color: rgba(34, 34, 34, 0.1);
+    text-transform: uppercase;
+}
+
+
+
+
 
 @media (max-width: 1152px){
     body{
@@ -178,3 +493,4 @@ nav ul button {
         max-width: none;
     }
 }
+
