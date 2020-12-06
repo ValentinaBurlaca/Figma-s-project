@@ -526,14 +526,91 @@ footer {
 
 
 
-@media (max-width: 1152px){
-    body{
-        max-width: 970px;
+@media (max-width: 1275px){
+    header div img {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 75px;
+        top: 23px;
     }
-}
-@media (max-width: 767px){
-    body{
-        max-width: none;
+
+    header div p {
+        position: absolute;
+        width: 144px;
+        height: 28px;
+        left: 105px;
+        margin-top: 20px;
     }
+
+    header nav ul {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        padding: 0px;
+        position: absolute;
+        width: 737px;
+        height: 40px;
+        left: 370px;
+    }
+
+    nav ul button {
+        position: absolute;
+        width: 130px;
+        height: 40px;
+        left: 590px;
+        font-size: 14px;
+    }
+
+    .left-container p {
+        left: 102px;
+        top: 145px;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .left-container h1 {
+        top: 225px;
+        font-weight: bold;
+        font-size: 65px;
+        line-height: 75px;
+    }
+    
+    
+    .left-container button {
+        width: 170px;
+        height: 45px;
+        left: 102px;
+        top: 460px;
+        font-size: 12px;
+    }
+    
+    .right-container .bg-home {
+        position: absolute;
+        width: 325px;
+        height: 610px;
+        left: 789px;
+        top: 0px;
+        z-index: -1;
+    }
+    
+    .right-container img {
+        position: absolute;
+        width: 430px;
+        height: 450px;
+        left: 55%;
+        top: 130px;
+        background: url(assets/img/table.png);
+    }
+    
+    .right-container .flower {
+        position: absolute;
+        width: 282px;
+        height: 282px;
+        left: 51%;
+        top: 300px;
+        z-index: -1;
+    }
+    
+
+
 }
 
