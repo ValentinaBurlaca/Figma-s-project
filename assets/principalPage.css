@@ -1,17 +1,17 @@
 body {
-    max-width: 1132px;
-    max-height: 2250px;
+    max-width: 1140px;
+    max-height: 2315px;
     position: relative;
-    background: #FFFFFF;
     box-shadow: 0px 40px 80px rgba(0, 0, 0, 0.25);
     font-family: 'Nunito', sans-serif;
     padding: 100% 0.7%;
     margin-left: 100px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-image: url(../assets/img/Group22.png);
+    /*background-image: url(../assets/img/Group22.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-position-y:  99.85%;
+    background-position-y:  99.85%;*/
+    
 }
 
 header {
@@ -144,7 +144,7 @@ nav ul button {
     position: absolute;
     width: 362px;
     height: 610px;
-    left: 789px;
+    left: 797.5px;
     top: 0px;
     background: #F9BDBD;
     z-index: -1;
@@ -200,7 +200,7 @@ color: black;
 
 h4{
     position: absolute;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 36px;
     color: #3E3F43;
     width: 205px;
@@ -290,7 +290,8 @@ h4{
 }
 
 #bottom-article img {
-    width: 283px;
+    position: relative;
+    width: 290px;
     height: 400px;
     margin-top: -100px;
 }
@@ -317,7 +318,7 @@ h4{
 #how-to-custom header  h2 {
     position: relative;
     left: 200px;
-    font-size: 59px;
+    font-size: 60px;
     top: -40px;
     color: rgba(34, 34, 34, 0.1);
     font-weight: 800;
@@ -326,7 +327,7 @@ h4{
 }
 
 #how-to-custom hr {
-    width: 100px;
+    width: 125px;
     position: absolute;
     height: 0px;
     margin-left: 360px;
@@ -363,6 +364,7 @@ li {
     border: 0;
     margin-left: 450px;
     margin-top: 70px;
+    cursor: pointer;
 }
 
 /*What we have*/
@@ -398,7 +400,7 @@ li {
 #what-we-have header h2 {
     color: rgba(34, 34, 34, 0.1);
     position: absolute;
-    font-weight: 800px;
+    font-weight: 800;
     font-size: 72px;
     text-transform: uppercase;
     margin-left: 650px;
@@ -547,12 +549,12 @@ li {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 5%;
-    background-image: url(../assets/img/Rectangle9.png);
+    /*background-image: url(../assets/img/Rectangle9.png);
     background-repeat: repeat-x;
     background-position: top;
     width: 1150px;
     height: 40%;
-    margin-left: -0.8%;
+    margin-left: -0.8%;*/
 }
 
 #subscribe div p {
@@ -564,6 +566,7 @@ li {
     position: relative;
     margin-top: 6.5%;
 }
+
 
 footer {
     position: absolute;
@@ -593,12 +596,23 @@ footer ul li h3 {
     margin-top: -40%;
 }
 
+.imag {
+    position: relative;
+    z-index: -1;
+    margin-left: -1%;
+    width: 102%;
+    height: 350px;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
 
-@media (max-width: 1275px){
+@media (max-width: 1280px){
+    body {
+        padding-left: 2%;
+    }
     header div img {
         position: absolute;
         width: 25px;
@@ -620,7 +634,7 @@ a{
         grid-template-columns: repeat(6, 1fr);
         padding: 0px;
         position: absolute;
-        width: 737px;
+        width: 800px;
         height: 40px;
         left: 370px;
     }
@@ -629,7 +643,7 @@ a{
         position: absolute;
         width: 130px;
         height: 40px;
-        left: 590px;
+        left: 620px;
         font-size: 14px;
     }
 
@@ -682,6 +696,36 @@ a{
         z-index: -1;
     }
     
+    .right-container .bg-home {
+        position: absolute;
+        width: 358px;
+        height: 610px;
+        left: 797.5px;
+        top: 0px;
+        background: #F9BDBD;
+        z-index: -1;
+        border-radius: 0 0 0 100px;
+    }
+    #bottom-article img {
+        position: relative;
+        width: 288px;
+        height: 400px;
+        margin-top: -100px;
+    }
+    #subscribe {
+        position: relative;
+        margin-top: 60%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 5%;
+    }
+    .imag {
+        position: relative;
+        z-index: -1;
+        height: 430px;
+        margin-left: -1%;
+        width: 102%;
+    }
 
 
 }
