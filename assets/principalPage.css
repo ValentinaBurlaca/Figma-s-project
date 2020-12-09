@@ -8,7 +8,7 @@ body {
     padding: 100% 0.7%;
     margin-left: 100px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-image: url(../assets/img/Group\ 22.png);
+    background-image: url(../assets/img/Group22.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-position-y:  99.85%;
@@ -547,7 +547,7 @@ li {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 5%;
-    background-image: url(../assets/img/Rectangle\ 9.png);
+    background-image: url(../assets/img/Rectangle9.png);
     background-repeat: repeat-x;
     background-position: top;
     width: 1150px;
