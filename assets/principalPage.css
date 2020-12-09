@@ -1,6 +1,6 @@
 body {
     max-width: 1132px;
-    max-height: 2300px;
+    max-height: 2250px;
     position: relative;
     background: #FFFFFF;
     box-shadow: 0px 40px 80px rgba(0, 0, 0, 0.25);
@@ -542,7 +542,6 @@ li {
 
 #subscribe {
     position: relative;
-    border: 1px solid red;
     margin-top: 70%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -559,8 +558,6 @@ li {
     margin-top: 6.5%;
 }
 
-
-
 footer {
     position: absolute;
     margin-left: 0;
@@ -568,6 +565,13 @@ footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     width: 850px;
+}
+
+footer hr {
+    position: absolute;
+    margin-top: -1%;
+    width: 750px;
+    margin-left: 12%;
 }
 
 footer ul li  {
