@@ -6,11 +6,6 @@ body {
     font-family: 'Nunito', sans-serif;
     padding: 100% 0.7%;
     margin-left: 100px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    /*background-image: url(../assets/img/Group22.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-position-y:  99.85%;*/
     
 }
 
@@ -549,12 +544,29 @@ li {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 5%;
-    /*background-image: url(../assets/img/Rectangle9.png);
-    background-repeat: repeat-x;
-    background-position: top;
-    width: 1150px;
-    height: 40%;
-    margin-left: -0.8%;*/
+}
+
+form {
+    border: 1px solid  #DAA520;
+    width: 360px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+form input {
+    height: 30px; 
+    width: 260px;
+    border: 0;
+    border-radius: 7px 0 0 7px;
+}
+
+form button {
+    background-color:  #DAA520;;
+    border: 0;
+    width: 92px;
+    height: 36px;
+    color: white;
+    border-radius: 0 7px 7px 0;
 }
 
 #subscribe div p {
@@ -567,6 +579,22 @@ li {
     margin-top: 6.5%;
 }
 
+#arrows {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+#arrows a{
+    font-size: 20px;
+}
+
+#arrows img {
+    width: 20%;
+    height: 6px;
+    position: relative;
+}
 
 footer {
     position: absolute;
@@ -601,7 +629,8 @@ footer ul li h3 {
     z-index: -1;
     margin-left: -1%;
     width: 102%;
-    height: 350px;
+    height: 550px;
+    margin-top: -200px;
 }
 
 a{
